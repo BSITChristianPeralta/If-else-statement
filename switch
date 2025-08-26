@@ -1,0 +1,31 @@
+//4. switch statement - selects one of many blocks of code to be executed
+<?php
+$day = "Monday";
+
+switch ($day) {
+    case "Monday":
+        echo "REST";
+        break;
+    case "Tuesday":
+        echo "7:00 am - 8:00 pm";
+        break;
+    case "Wednesday":
+        echo "7:30 am - 8:30 pm";
+        break;
+    case "Thursday":
+        echo "REST";
+        break;
+    case "Friday":
+        echo "7:00 am - 8:00 pm";
+        break;
+    case "Saturday":
+	echo "7:30 am - 9:30 am";
+	break;
+    case "Sunday":
+        echo "GENERAL CLEANING";
+        break;
+    default:
+        echo "Enter a valid day";
+        break;
+}
+?>
