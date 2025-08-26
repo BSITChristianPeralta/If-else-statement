@@ -1,0 +1,14 @@
+//3.if else if else statement - executes different codes for more than two conditions
+<?php
+$age = 18;
+
+if ($age < 13) {
+    echo "You are a child.";
+} elseif ($age < 18) {
+    echo "You are a teenager.";
+} elseif ($age < 65) {
+    echo "You are an adult.";
+} else {
+    echo "You are a senior citizen.";
+}
+?>
