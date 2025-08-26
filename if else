@@ -1,0 +1,10 @@
+//2. ifelse statement - executes some code if a condition is true and another code if that condition is false
+<?php
+$age = 17;
+
+if ($age >= 18) {
+    echo "Your legal age";
+} else {
+    echo "Your not legal age";
+}
+?>
