@@ -1,0 +1,8 @@
+//1. if statement - executes some code if one condition is true
+<?php
+$age = 18;
+
+if ($age >= 18) {
+    echo "your legal age";
+}
+?>
